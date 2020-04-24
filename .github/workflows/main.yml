@@ -24,5 +24,6 @@ jobs:
             dir
             kotlinc-native ..\..\hello.kt -o hello.exe -target mingw_x86
             dir
+            kotlinc-native ..\..\hello.kt -o hello.exe -target mingw_x86
             
         shell: cmd
