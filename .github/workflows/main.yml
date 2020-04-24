@@ -18,8 +18,8 @@ jobs:
          
          
       - name: Build (Windows)
-        if: startsWith(matrix.os, 'windows')
         run: |
-            kotlin-native\kotlinc-native hello.kt -o hello.exe
+            dir
+            kotlinc-native hello.kt -o hello.exe
             
         shell: cmd
