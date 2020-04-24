@@ -20,6 +20,8 @@ jobs:
       - name: Build (Windows)
         run: |
             dir
-            kotlinc-native hello.kt -o hello.exe
+            cd kotlin-native-windows-1.3.72
+            dir
+            kotlinc-native ..\hello.kt -o hello.exe
             
         shell: cmd
