@@ -22,7 +22,7 @@ jobs:
             dir
             cd kotlin-native-windows-1.3.72\bin
             dir
-            kotlinc-native ..\..\hello.kt -o hello.exe -list-targets
+            kotlinc-native ..\..\hello.kt -o hello.exe -target mingw_x86
             dir
             
         shell: cmd
